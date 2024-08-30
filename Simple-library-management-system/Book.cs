@@ -10,17 +10,17 @@ namespace Simple_library_management_system
     {
         private string title;
         private string author;
-        private string iSBN;
+        private string isbn;
         private int publishedYear;
 
         /**
          * Constructor
          */
-        public Book(string title, string author, string iSBN, int publishedYear)
+        public Book(string title, string author, string isbn, int publishedYear)
         {
             this.title = title;
             this.author = author;
-            this.iSBN = iSBN;
+            this.isbn = isbn;
             this.publishedYear = publishedYear;
         }
 
@@ -38,8 +38,8 @@ namespace Simple_library_management_system
         
         }
         public string ISBN {
-            get { return iSBN; }
-            set { iSBN = value; }
+            get { return isbn; }
+            set { isbn = value; }
         }
 
         public int PublishedYear {
